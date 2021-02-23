@@ -1,0 +1,193 @@
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink:hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+}
+
+body{
+  font-family: 'Spartan', sans-serif;
+  color: var(--Very-Dark-Magenta);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.title-text{
+  font-size: 3rem;
+  font-weight: bold;
+  /* width: 50%; */
+    margin: 0;
+
+}
+
+.subtitle-text{
+  font-size: 1rem;
+  font-weight: 400;
+  /* width: 50%; */
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+
+.container-1{
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+.container-1-1{
+  width: 50%;
+  margin: 0;
+}
+
+.container-1-2{
+    margin-left: 8rem;
+    width: 50%;
+}
+
+.rated-1{
+  background-color: var(--Light-Grayish-Magenta);
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  width: 400px;
+  text-align: center;
+
+
+}
+
+.rated-2{
+  background-color: var(--Light-Grayish-Magenta);
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  width: 400px;
+  text-align: center;
+  margin-left: 50px;
+
+}
+
+
+.rated-3{
+  background-color: var(--Light-Grayish-Magenta);
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  width: 400px;
+  text-align: center;
+  margin-left: 100px;
+
+}
+
+p{
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+
+
+.rated-text{
+padding-top: 18px;
+}
+
+
+
+.star-icon1{
+  /* display: flex; */
+  float: left;
+  padding-left: 13px;
+  padding-top: 14px;
+}
+.star-icon2{
+  /* display: flex; */
+  float: left;
+  padding-top: 14px;
+  padding-left: 13px;
+}
+.star-icon3{
+  /* display: flex; */
+  float: left;
+  padding-top: 14px;
+  padding-left: 13px;
+}
+.star-icon4{
+  /* display: flex; */
+  float: left;
+  padding-top: 14px;
+  padding-left: 13px;
+}
+.star-icon5{
+  /* display: flex; */
+  float: left;
+  padding-top: 14px;
+  padding-left: 13px;}
+
+
+/* review cards */
+
+.reviews-box{
+  display: flex;
+  margin-bottom: 5rem;
+  height: 25rem;
+}
+
+.img-people{
+  padding: 20px;
+  border-radius: 50%;
+  width: 50px;
+  float: left;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.name{
+margin-top: 3rem;
+}
+
+
+
+.box-1{
+  background-color: var(--Very-Dark-Magenta);
+  color: white;
+  width: 25%;
+  margin-left: 5rem;
+  border-radius: 0.7rem;
+  height: 20rem;
+}
+
+.box-2{
+  margin-top: 1rem;
+  background-color: var(--Very-Dark-Magenta);
+  color: white;
+  width: 25%;
+  margin-left: 5rem;
+  border-radius: 0.7rem;
+    height: 20rem;
+}
+
+.box-3{
+  margin-top: 2rem;
+  background-color: var(--Very-Dark-Magenta);
+  color: white;
+  width: 25%;
+  margin-left: 5rem;
+  border-radius: 0.7rem;
+    height: 20rem;
+}
+
+.name-sub{
+  color: var(--Soft-Pink);
+
+}
+
+.text-review{
+  margin-top: 2rem;
+  padding: 10px 20px;
+}
